@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/petergd/pd-menu.git"
+    "url": "https://github.com/petergd/pd-menu.git"
   },
   "keywords": [
     "Web",
     "Component",
     "menu",
-    "pad",
-    "canvas",
+	"pad",
+	"canvas",
     "Window"
   ],
   "files": [
@@ -23,6 +23,7 @@
     "test-utils.js",
     "tests/pd-menu.test.js",
     "pd-menu.js",
+	"taxonomies.json",
     "pd-menu.html"
   ],
   "bugs": {
@@ -46,8 +47,5 @@
     "karma-spec-reporter": "0.0.32",
     "puppeteer": "^2.0.0"
   },
-  "homepage": "https://github.com/petergd/pd-menu#readme",
-  "directories": {
-    "test": "tests"
-  }
+  "homepage": "https://github.com/petergd/pd-menu#readme"
 }
